@@ -38,10 +38,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 color: Colors.black,
               ),
             )),
-            Column(
-              children: [
-                Text('test')
-              ],
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                children: [
+                  Text('test'),
+                ],
+              ),
             ),
           ],
         ),
