@@ -40,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
             )),
             Column(
               children: [
+                Text('test')
               ],
             ),
           ],
